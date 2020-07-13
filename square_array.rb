@@ -1,9 +1,10 @@
 def square_array(array)
   # your code here
-  numbers = [1,2,3]
-  square_array(numbers)
+  count = 0
+  while count < array.length do
+    array.index ** 2
+  end
+  square_array(array)
 
-  new_numbers = [9,10,16,25]
-  sqaure_array(new_numbers)
 
 end
