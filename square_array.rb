@@ -1,10 +1,7 @@
 def square_array(array)
-  # your code here
-  count = 0
-  while count < array.length do
-    array.index ** 2
+  new_numbers = []
+  array.each do |numbers|
+    numbers ** 2
   end
-  square_array(array)
-
-
+  new_numbers.push(numbers)
 end
